@@ -13,8 +13,8 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-            "outputPath": "../angular",
-            "baseHref": "./",
+            "outputPath": "../angular/dist",
+            "baseHref": "./"
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
