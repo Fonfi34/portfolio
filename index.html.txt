@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alfonso Aparicio | Software Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Alfonso Aparicio</h1>
+    <p>Full-Stack .NET & Angular Developer</p>
+    <nav>
+      <a href="#about">Sobre mí</a>
+      <a href="#experience">Experiencia</a>
+      <a href="#projects">Proyectos</a>
+      <a href="#contact">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>Sobre mí</h2>
+      <p>
+        Desarrollador de software con experiencia en entornos .NET y Angular.
+        Me apasiona construir soluciones limpias, escalables y bien estructuradas,
+        con especial atención a la calidad del código y la experiencia de usuario.
+      </p>
+    </section>
+
+    <section id="experience">
+      <h2>Experiencia</h2>
+      <ul>
+        <li>
+          <strong>Ricoh Spain IT Services</strong> — Desarrollador .NET / Angular  
+          <em>(2021 - Actualidad)</em>  
+          <p>
+            Desarrollo y mantenimiento de aplicaciones web empresariales,
+            integración de APIs REST, y gestión de datos en SQL Server.
+          </p>
+        </li>
+        <li>
+          <strong>Proyectos Freelance</strong> — Mantenimiento de aplicaciones  
+          <em>(2023 - Actualidad)</em>  
+          <p>
+            Especializado en soporte y optimización de aplicaciones en producción,
+            con enfoque en rendimiento y fiabilidad.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Proyectos</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>F1 Sim Manager</h3>
+          <p>Juego de simulación de Fórmula 1 desarrollado con Flutter, que incluye simulaciones realistas de clasificación y carrera.</p>
+          <a href="#" target="_blank">Ver proyecto</a>
+        </div>
+        <div class="project-card">
+          <h3>FARO App</h3>
+          <p>Aplicación de gestión empresarial para análisis y carga de datos desde Excel a SQL Server, con interfaz Angular y backend WebAPI.</p>
+          <a href="#" target="_blank">Ver proyecto</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contacto</h2>
+      <p>Puedes encontrarme en:</p>
+      <ul>
+        <li>Email: <a href="mailto:alfonso.aparicio@example.com">alfonso.aparicio@example.com</a></li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/alfonsoaparicio" target="_blank">linkedin.com/in/alfonsoaparicio</a></li>
+        <li>GitHub: <a href="https://github.com/alfonsoaparicio" target="_blank">github.com/alfonsoaparicio</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Alfonso Aparicio | Desarrollador de Software</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
